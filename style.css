@@ -227,6 +227,7 @@ a{
 
 
 .date{
+    color: black;
     display: inline-block;
     font-family: DrukTextBold; 
    font-size: 4rem;
@@ -271,6 +272,7 @@ a{
 }
 
 .location{
+    color: black;
    display: block;
    font-family: DrukTextBold; 
    font-size: 12rem;
@@ -282,6 +284,7 @@ a{
 }
 
 .location_2{
+    color: black;
    display: block;
    font-family: DrukTextBold; 
    font-size: 11.5rem;
