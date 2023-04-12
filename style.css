@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 
 @font-face {
   font-family: DrukTextBold;
@@ -201,6 +201,33 @@ a{
 
 }
 
+
+.collapsible_2 {
+    background-color: white;
+    border-style: hidden;
+     border-top-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 100%;
+    padding-left: 4rem;
+     padding-right: 4rem;
+
+}
+
+.collapsible_2:hover {
+  background-color: #21df7a;
+}
+
+.collapsible_2:after {
+  content: '+';
+  color: #ffffff;
+  font-size: 7rem;
+  float: right;
+  display: inline-block;
+   opacity: 0;
+}
+
+
 .city{
     color: black;
     display: inline-block;
@@ -271,8 +298,15 @@ a{
     border-top-style: solid;
       border-bottom: 10px;
     border-bottom-style: solid;
-  
-  
+
+}
+
+.stroke {
+    width: 100%;
+    height: auto;
+    border-style: hidden;
+    border-top: 10px;
+    border-top-style: solid;
 }
 
 .location{
@@ -424,6 +458,7 @@ a{
    font-family: DrukTextBold; 
    font-size: 14rem;
    text-transform: uppercase;
+    margin: 4rem;
    margin-top: 7rem;
    margin-bottom: 0rem;
     color: black;
@@ -449,15 +484,22 @@ border-style: hidden;
     border-bottom-style: solid;
     
 }
+.obiettivi_section_2{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+border-style: hidden;
+    
+}
 
 .intro_obiettivi{
     display: block;
    font-family: Karla;
     font-style: italic;
-    font-size: 3rem;
-     margin-top: 2rem;
+    font-size: 2em;
+     margin: 4rem;
+     margin-top: 8rem;
    margin-bottom: 0;
-        width: 100%;
+        width: 85%;
         text-transform: uppercase;
     color: black;
 }
@@ -465,7 +507,7 @@ border-style: hidden;
 .obiettivi_number{
     display: block;
    font-family: DrukTextBold; 
-   font-size: 10rem;
+   font-size: 6rem;
    text-transform: uppercase;
     margin: 0;
     margin-right: 3rem;
@@ -479,7 +521,7 @@ border-style: hidden;
    font-family: Karla; 
    font-style: medium;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     margin: 0;
     margin-left: 4rem;
@@ -491,12 +533,10 @@ border-style: hidden;
    font-family: Karla; 
    font-style: medium;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     margin: 0;
-    margin-left: 4rem;
-        margin-right: 4rem;
-    margin-top: 4rem;
+    margin: 4rem;
 }
 
 .intro_condotta{
@@ -689,8 +729,27 @@ border-style: hidden;
     
 }
     
+    .intro_obiettivi{
+    font-size: 3rem;
+}
+    
+    .obiettivi_number{
+   font-size: 10rem;
+
+}
+    .obiettivi_paragraph{
+    font-size: 3rem;
+  
+}
+
+    
          .manifesto_title{
    font-size: 12rem;
+}
+    
+    .manifesto_paragraph{
+    font-size: 3rem;
+
 }
 
 }
@@ -860,9 +919,19 @@ border-style: hidden;
     
 }
     
-    
+.stroke {
+    border-width: 0.5rem;
+}
+
     
 .collapsible {
+      border-width: 0.5rem;
+    padding-left: 2rem;
+     padding-right: 2rem;
+
+}
+    
+    .collapsible_2 {
       border-width: 0.5rem;
     padding-left: 2rem;
      padding-right: 2rem;
@@ -984,6 +1053,7 @@ border-style: hidden;
    margin-bottom: 0rem;
 }
     
+
       .manifesto_title{
    font-size: 10rem;
    margin-top: 3rem;
@@ -1068,8 +1138,18 @@ border-style: hidden;
     .tour_title{
    font-size: 7rem; 
 }
-    
+  
+.stroke {
+    border-width: 0.4rem;
+}
     .collapsible {
+      border-width: 0.4rem;
+    padding-left: 1rem;
+     padding-right: 1rem;
+
+}
+    
+      .collapsible_2 {
       border-width: 0.4rem;
     padding-left: 1rem;
      padding-right: 1rem;
@@ -1245,9 +1325,11 @@ border-style: hidden;
     
     
 .intro_obiettivi{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem;
      margin-top: 2rem;
    margin-bottom: 0;
+    
 }
     
 .intro_condotta{
@@ -1273,7 +1355,7 @@ border-style: hidden;
 }
     
        .manifesto_paragraph{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;
     margin-left: 2rem;
     margin-right: 2rem;
