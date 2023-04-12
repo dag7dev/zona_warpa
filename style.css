@@ -243,16 +243,16 @@ a{
 }
 
 .collapsible:after {
-  color: black;
   content: '+';
+  color: #000000;
   font-size: 7rem;
   float: right;
   display: inline-block;
 }
 
 .active:after {
-  color: black;
   content: "−";
+  color: #000000;
 }
 
 .content {
