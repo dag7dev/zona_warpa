@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
 
 @font-face {
   font-family: DrukTextBold;
   src: url(font/DrukText-Bold.otf);
 }
 
-
+.bold {
+   font-family: Karla; 
+   font-style: bold;
+}
 #landing_section{
         background-color: #21df7a;
         margin: 0 auto 0 auto;
