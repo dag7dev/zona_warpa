@@ -243,6 +243,7 @@ a{
 }
 
 .collapsible:after {
+  color: black;
   content: '+';
   font-size: 7rem;
   float: right;
@@ -250,6 +251,7 @@ a{
 }
 
 .active:after {
+  color: black;
   content: "−";
 }
 
