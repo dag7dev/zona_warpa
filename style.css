@@ -136,6 +136,7 @@ display: none;
 .intro_paragraph{
     display: block;
    font-family: Karla; 
+    font-style: medium;
   text-transform: uppercase;
     font-size: 2.5rem;
      margin-top: 3rem;
@@ -502,7 +503,7 @@ border-style: hidden;
 
     font-size: 2em;
      margin: 4rem;
-     margin-top: 8rem;
+     margin-top: 4rem;
    margin-bottom: 0;
         width: 85%;
         text-transform: uppercase;
