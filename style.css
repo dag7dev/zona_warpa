@@ -642,22 +642,22 @@ border-style: hidden;
     
 /*MOBILE*/
 
-@media only screen and (max-width: 1300px) {/*812px*/ /*389px*/ 
+@media only screen and (max-width: 1200px) {/*812px*/ /*389px*/ 
 
     
     #logo_main{
      display: block;
-    height: 50%;
-        width: 35%;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    height: auto;
+        width: 68%;
+    padding-bottom: 10%;
+    padding-top: 30%;
     
         
 }
 
 #freccia{
     display: block;
-    width: 12%;
+    width: 25%;
     height: 25%;
     margin: 0 auto 0 auto;
 }
