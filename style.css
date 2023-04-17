@@ -7,6 +7,10 @@
   src: url(font/DrukText-Bold.otf);
 }
 
+body{
+    margin: 0;
+}
+
 .bold {
    font-family: Karla; 
    font-style: bold;
