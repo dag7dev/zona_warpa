@@ -47,8 +47,7 @@ body{
 
 #logo_main{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 36rem;
     padding-bottom: 3rem;
     padding-top: 4rem;
@@ -58,7 +57,7 @@ body{
 #freccia{
     display: block;
     height: 11rem;
-    margin: 0 auto 0 auto;
+    margin: auto;
     padding-bottom: 2rem;
 }
 
@@ -607,7 +606,8 @@ border-style: hidden;
      #logo_main{
      display: block;
          height: auto;
-    width: 20%;
+         margin: auto;
+    width: 22%;
     padding-bottom: 3rem;
     padding-top: 5%;
     
@@ -616,6 +616,7 @@ border-style: hidden;
 
 #freccia{
     display: block;
+         margin: auto;
     height: inherit;
     width: 7%;
     margin: 0 auto 0 auto;
@@ -653,20 +654,22 @@ border-style: hidden;
     
 /*MOBILE*/
 
-@media only screen and (max-width: 980px) /*812px*/ /*389px*/ 
-{
+@media only screen and (max-width: 1100px) {/*812px*/ /*389px*/ 
+
     
     #logo_main{
      display: block;
     height: 50%;
-    padding-bottom: 10%;
-    padding-top: 20%;
+        width: 35%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     
         
 }
 
 #freccia{
     display: block;
+    width: 12%;
     height: 25%;
     margin: 0 auto 0 auto;
 }
@@ -879,7 +882,7 @@ border-style: hidden;
     .arrow{
     display: inline-block;
     width: 5rem;
-    margin-left: 0;
+    margin-left: 0; 
     
 }
     
@@ -982,7 +985,7 @@ border-style: hidden;
 /*IPAD*/
 
 @media only screen and (max-width: 790px) /*769px*/
-{
+{ 
   #intro_section{
     padding: 2rem;
 }
