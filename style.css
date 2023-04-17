@@ -401,16 +401,56 @@ a{
     width: auto;
     height: auto;
     padding: 5rem;
+ 
 }
+
 
 .white_title{
     color: white;
      display: block;
    font-family: DrukTextBold; 
-   font-size: 13rem;
+   font-size: 10rem;
+    margin: 0;
    text-transform: uppercase;
     text-align: center;
 }
+
+.social_section{
+       display: block;
+}
+
+.left_column{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.right_column{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.social_link{
+    color: white;
+    display: block;
+   font-family: DrukTextBold; 
+   font-style: medium;
+    font-size: 3rem;
+     margin-top: 3rem;
+     padding: 4rem;
+    padding-top: 0;
+    padding-bottom: 0rem;
+    text-align: center;
+}
+
+.social_link:hover{
+    /*color: #21df7a;*/
+    color: #ff4097;
+    text-decoration: underline;
+}
+
 
 #follow{
     padding: 4rem;
@@ -725,6 +765,15 @@ border-style: hidden;
       margin-top: 0;
       width: 80%;
     }
+      
+   .social_link{
+    font-size: 4rem;
+     margin-top: 5rem;
+     padding: 4rem;
+    padding-top: 0;
+    padding-bottom: 0rem;
+    text-align: center;
+} 
     
 .tasto_obiettivi{
     width: 100%;
@@ -1280,7 +1329,7 @@ border-style: hidden;
 }
 
 .white_title{
-   font-size: 5rem;
+   font-size: 4rem;
 }
 
 #follow{
@@ -1300,6 +1349,15 @@ border-style: hidden;
     margin-right: auto;
     
 }
+    
+    .social_link{
+    font-size: 2rem;
+     margin-top: 3rem;
+     padding-left: 2rem;
+         padding-right: 2rem;
+    text-align: center;
+}
+
     
         .tasto_obiettivi{
     width: 100%;
