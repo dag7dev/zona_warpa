@@ -399,11 +399,16 @@ a{
       width: 41%;
     }
 
-#black_section{
+#links_container {
+    padding: 2.5rem 0 2.5rem 0;
+    background-color: black; 
+}
+
+.black_section{
     background-color: black;
     width: auto;
     height: auto;
-    padding: 5rem;
+    padding: 2.5rem 5rem 2.5rem 5rem;
  
 }
 
