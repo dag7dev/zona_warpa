@@ -593,6 +593,22 @@ border-style: hidden;
     margin: 4rem;
 }
 
+.programma_titolo {
+    font-family: DrukTextBold; 
+    text-transform: uppercase;
+    font-size: 2.6rem;
+}
+
+.programma_link {
+    background-color: #21df7A;
+    color:#000000;
+}
+
+.programma_link:hover{
+    background-color: black;
+    color: white;
+}
+
 .intro_condotta{
     display: block;
    font-family: Karla;
@@ -854,6 +870,12 @@ border-style: hidden;
     .manifesto_paragraph{
     font-size: 3rem;
 
+}
+
+.programma_titolo {
+    font-family: DrukTextBold; 
+    text-transform: uppercase;
+    font-size: 3.8rem;
 }
 
 }
