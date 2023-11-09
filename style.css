@@ -7,6 +7,10 @@
   src: url(font/DrukText-Bold.otf);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 body{
     margin: 0;
 }
