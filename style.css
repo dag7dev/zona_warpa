@@ -268,6 +268,20 @@ a{
 }
 
 
+.city_3{
+    color: black;
+    display: inline-block;
+    font-family: DrukTextBold; 
+   font-size: 3rem;
+   text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 2.8rem;
+    float: left;
+    width: 10%;
+    text-align: left;
+}
+
+
 .date{
     color: black;
     display: inline-block;
@@ -1005,6 +1019,9 @@ border-style: hidden;
 
 @media only screen and (max-width: 790px) /*769px*/
 { 
+
+
+
   #intro_section{
     padding: 2rem;
 }
@@ -1538,5 +1555,10 @@ border-style: hidden;
             margin-right: 0;
         width: 43%;
     float: right;
+}
+
+.city_3{
+
+    display: none;
 }
 }
