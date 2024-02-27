@@ -47,8 +47,9 @@ body {
   font-family: DrukTextBold;
   font-size: 4rem;
   text-transform: uppercase;
-  float: center;
-  width: 10%;
+} 
+
+.centered {
   text-align: center;
 }
 
@@ -621,7 +622,7 @@ a {
     height: auto;
     margin: auto;
     width: 22%;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     padding-top: 5%;
   }
 
@@ -630,6 +631,7 @@ a {
     margin: auto;
     height: inherit;
     width: 7%;
+    padding-top: 2rem;
     margin: 0 auto 0 auto;
   }
 
