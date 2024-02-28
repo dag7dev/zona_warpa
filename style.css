@@ -237,6 +237,30 @@ a {
   opacity: 0;
 }
 
+.collapsible_d{
+  background-color: lightslategray;
+  border-style: hidden;
+  border-top-style: solid;
+  border-color: black;
+  border-width: 10px;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.collapsible_d:hover {
+  background-color: #ff4097;
+}
+
+.collapsible_d:after {
+  content: "+";
+  color: #ffffff;
+  font-size: 7rem;
+  float: right;
+  display: inline-block;
+  opacity: 0;
+}
+
 .city {
   color: black;
   display: inline-block;
@@ -1019,6 +1043,12 @@ a {
     padding-right: 2rem;
   }
 
+  .collapsible_d{
+    border-width: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .city {
     font-size: 3rem;
     margin-top: 1.5rem;
@@ -1035,6 +1065,10 @@ a {
   }
 
   .collapsible:after {
+    font-size: 5rem;
+  }
+
+  .collapsible_d:after {
     font-size: 5rem;
   }
 
@@ -1218,6 +1252,12 @@ a {
     padding-right: 1rem;
   }
 
+  .collapsible_d{
+    border-width: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .city {
     font-size: 1.5rem;
     margin-top: 1.1rem;
@@ -1234,6 +1274,10 @@ a {
   }
 
   .collapsible:after {
+    font-size: 3rem;
+  }
+
+  .collapsible_d:after {
     font-size: 3rem;
   }
 

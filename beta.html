@@ -390,7 +390,7 @@
     </div>
 
     <!-- 2023 -->
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">Milano</p>
       <p class="date">03/12/2023</p>
     </button>
@@ -413,7 +413,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">Bologna</p>
       <p class="date">18/11/2023</p>
     </button>
@@ -436,7 +436,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city_3">Marzabotto</p>
       <p class="date">17/11/2023</p>
     </button>
@@ -456,7 +456,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">mestre</p>
       <p class="date">07/10/2023</p>
     </button>
@@ -477,7 +477,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">napoli</p>
       <p class="date">18/06/2023</p>
     </button>
@@ -504,7 +504,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">roma</p>
       <p class="date">15/06/2023</p>
     </button>
@@ -532,7 +532,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city_2">montelupo fiorentino</p>
       <p class="date">14/06/2023</p>
     </button>
@@ -561,7 +561,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">Siena</p>
       <p class="date">13/06/2023</p>
     </button>
@@ -590,7 +590,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">Firenze</p>
       <p class="date">11/06/2023</p>
     </button>
@@ -613,7 +613,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">genova</p>
       <p class="date">10/06/2023</p>
     </button>
@@ -642,7 +642,7 @@
       </p>
     </div>
 
-    <button class="collapsible">
+    <button class="collapsible_d">
       <p class="city">milano</p>
       <p class="date">09/06/2023</p>
     </button>
@@ -735,6 +735,21 @@
     <!-- Script section starts-->
     <script>
       var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+
+      var coll = document.getElementsByClassName("collapsible_d");
       var i;
 
       for (i = 0; i < coll.length; i++) {
