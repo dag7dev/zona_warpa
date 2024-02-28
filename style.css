@@ -43,7 +43,7 @@ body {
 }
 
 .year {
-  color: black;
+  color: #0e1111;
   font-family: DrukTextBold;
   font-size: 4rem;
   text-transform: uppercase;
@@ -134,7 +134,7 @@ img.vert-move {
   margin-top: 4rem;
   margin-bottom: 0rem;
   width: 50%;
-  color: black;
+  color: #0e1111;
 }
 
 .intro_subtitle {
@@ -144,7 +144,7 @@ img.vert-move {
   text-transform: uppercase;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: black;
+  color: #0e1111;
 }
 
 .intro_paragraph {
@@ -156,14 +156,14 @@ img.vert-move {
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: 100%;
-  color: black;
+  color: #0e1111;
 }
 
 .tasto {
   margin-bottom: 2rem;
   width: 100%;
   border-style: solid;
-  border-color: black;
+  border-color: #0e1111;
   border-width: 10px;
   padding-left: auto;
   padding-right: auto;
@@ -177,7 +177,7 @@ img.vert-move {
   text-transform: uppercase;
   margin: 0px;
   padding-top: 0.5rem;
-  color: black;
+  color: #0e1111;
   text-align: center;
 }
 
@@ -199,14 +199,14 @@ a {
   margin-bottom: 3rem;
   width: 45%;
   float: right;
-  color: black;
+  color: #0e1111;
 }
 
 .collapsible {
   background-color: white;
   border-style: hidden;
   border-top-style: solid;
-  border-color: black;
+  border-color: #0e1111;
   border-width: 10px;
   width: 100%;
   padding-left: 4rem;
@@ -217,7 +217,7 @@ a {
   background-color: white;
   border-style: hidden;
   border-top-style: solid;
-  border-color: black;
+  border-color: #0e1111;
   border-width: 10px;
   width: 100%;
   padding-left: 4rem;
@@ -238,10 +238,11 @@ a {
 }
 
 .collapsible_d{
-  background-color: lightslategray;
+  color: #333;
+  background-color: #909090;
   border-style: hidden;
   border-top-style: solid;
-  border-color: black;
+  border-color: #0e1111;
   border-width: 10px;
   width: 100%;
   padding-left: 4rem;
@@ -262,7 +263,7 @@ a {
 }
 
 .city {
-  color: black;
+  color: inherit;
   display: inline-block;
   font-family: DrukTextBold;
   font-size: 4rem;
@@ -275,7 +276,7 @@ a {
 }
 
 .city_2 {
-  color: black;
+  color: inherit;
   display: inline-block;
   font-family: DrukTextBold;
   font-size: 3rem;
@@ -288,7 +289,7 @@ a {
 }
 
 .city_3 {
-  color: black;
+  color: inherit;
   display: inline-block;
   font-family: DrukTextBold;
   font-size: 3rem;
@@ -301,7 +302,7 @@ a {
 }
 
 .date {
-  color: black;
+  color: inherit;
   display: inline-block;
   font-family: DrukTextBold;
   font-size: 4rem;
@@ -361,7 +362,7 @@ a {
   margin-top: 4rem;
   margin-bottom: 2rem;
   padding-left: 4rem;
-  color: black;
+  color: #0e1111;
 }
 
 .location_2 {
@@ -372,7 +373,7 @@ a {
   margin-top: 4rem;
   margin-bottom: 2rem;
   padding-left: 4rem;
-  color: black;
+  color: #0e1111;
 }
 
 .program {
@@ -417,7 +418,7 @@ a {
   padding: 4rem;
   padding-top: 0;
   padding-bottom: 0rem;
-  color: black;
+  color: #0e1111;
 }
 
 .donazione {
@@ -432,11 +433,11 @@ a {
 
 #links_container {
   padding: 2.5rem 0 2.5rem 0;
-  background-color: black;
+  background-color: #0e1111;
 }
 
 .black_section {
-  background-color: black;
+  background-color: #0e1111;
   width: auto;
   height: auto;
   padding: 2.5rem 5rem 2.5rem 5rem;
@@ -514,7 +515,7 @@ a {
   width: 20%;
   display: flex;
   border-style: solid;
-  border-color: black;
+  border-color: #0e1111;
   border-width: 10px;
 }
 
@@ -538,7 +539,7 @@ a {
   margin: 4rem;
   margin-top: 7rem;
   margin-bottom: 0rem;
-  color: black;
+  color: #0e1111;
 }
 
 .manifesto_title {
@@ -548,7 +549,7 @@ a {
   text-transform: uppercase;
   margin-top: 7rem;
   margin-bottom: 0rem;
-  color: black;
+  color: #0e1111;
 }
 
 .obiettivi_section {
@@ -574,7 +575,7 @@ a {
   margin-bottom: 0;
   width: 85%;
   text-transform: uppercase;
-  color: black;
+  color: #0e1111;
 }
 
 .obiettivi_number {
@@ -586,7 +587,7 @@ a {
   margin-right: 3rem;
   margin-bottom: 2rem;
   margin-left: 4rem;
-  color: black;
+  color: #0e1111;
 }
 
 .obiettivi_paragraph {
@@ -595,7 +596,7 @@ a {
   font-style: medium;
   text-transform: uppercase;
   font-size: 2rem;
-  color: black;
+  color: #0e1111;
   margin: 0;
   margin-left: 4rem;
   margin-right: 4rem;
@@ -607,7 +608,7 @@ a {
   font-style: medium;
   text-transform: uppercase;
   font-size: 2rem;
-  color: black;
+  color: #0e1111;
   margin: 0;
   margin: 4rem;
 }
@@ -624,7 +625,7 @@ a {
 }
 
 .programma_link:hover {
-  background-color: black;
+  background-color: #0e1111;
   color: white;
 }
 
@@ -635,7 +636,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 0;
   width: 100%;
-  color: black;
+  color: #0e1111;
 }
 
 /*MEDIA QUERIES*/
@@ -669,7 +670,7 @@ a {
     margin-bottom: 3rem;
     width: 41%;
     float: right;
-    color: black;
+    color: #0e1111;
   }
 }
 
@@ -721,7 +722,7 @@ a {
     margin-top: 4rem;
     margin-bottom: 0rem;
     width: 100%;
-    color: black;
+    color: #0e1111;
   }
 
   .intro_subtitle {
@@ -731,7 +732,7 @@ a {
     text-transform: uppercase;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    color: black;
+    color: #0e1111;
   }
 
   .intro_paragraph {
@@ -742,7 +743,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 5rem;
     width: 100%;
-    color: black;
+    color: #0e1111;
   }
 
   .tasto {
@@ -751,7 +752,7 @@ a {
     margin-bottom: 2rem;
     width: 100%;
     border-style: solid;
-    border-color: black;
+    border-color: #0e1111;
     border-width: 10px;
     padding-left: auto;
     padding-right: auto;
@@ -764,7 +765,7 @@ a {
     font-size: 65pt;
     text-transform: uppercase;
     margin: 0px;
-    color: black;
+    color: #0e1111;
     text-align: center;
   }
 
@@ -779,7 +780,7 @@ a {
     padding: 0;
     width: 100%;
     float: none;
-    color: black;
+    color: #0e1111;
   }
 
   .event {
@@ -819,7 +820,7 @@ a {
     padding: 4rem;
     padding-top: 0;
     padding-bottom: 2rem;
-    color: black;
+    color: #0e1111;
   }
 
   .donazione {
@@ -846,7 +847,7 @@ a {
     width: 100%;
     display: flex;
     border-style: solid;
-    border-color: black;
+    border-color: #0e1111;
     border-width: 10px;
   }
 
@@ -1022,7 +1023,7 @@ a {
     font-size: 4rem;
     text-transform: uppercase;
     margin: 0px;
-    color: black;
+    color: #0e1111;
     text-align: center;
   }
 
@@ -1129,7 +1130,7 @@ a {
     padding: 2rem;
     padding-top: 0;
     padding-bottom: 2rem;
-    color: black;
+    color: #0e1111;
   }
 
   .donazione {
@@ -1208,7 +1209,7 @@ a {
     text-transform: uppercase;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    color: black;
+    color: #0e1111;
   }
 
   .intro_paragraph {
@@ -1249,7 +1250,7 @@ a {
     border-width: 0.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
-  }
+  
 
   .collapsible_d{
     border-width: 0.4rem;
@@ -1298,7 +1299,7 @@ a {
     margin-top: 1rem;
     margin-bottom: 0rem;
     padding-left: 1rem;
-    color: black;
+    color: #0e1111;
   }
 
   .location_2 {
@@ -1309,7 +1310,7 @@ a {
     margin-top: 1rem;
     margin-bottom: 0rem;
     padding-left: 1rem;
-    color: black;
+    color: #0e1111;
   }
 
   .program {
@@ -1358,7 +1359,7 @@ a {
     padding: 1rem;
     padding-top: 0;
     padding-bottom: 1rem;
-    color: black;
+    color: #0e1111;
   }
 
   .donazione {
