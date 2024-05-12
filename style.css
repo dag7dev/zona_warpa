@@ -1519,3 +1519,17 @@ a {
     }
   }
 }
+
+
+.topbar {
+  background-color: #333;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
+}
+.topbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
+}
